@@ -1,0 +1,214 @@
+            .cursor-pointer {
+                cursor: pointer
+            }
+            
+            .heading-strip {
+                font-size: 24px;
+                font-weight: 700;
+                padding: 12px 16px;
+                background: #36C6D3;
+                color: #fff;
+                margin: 15px 0;
+            }
+            
+            .selected-item {
+                color: #fff;
+                padding: 20px;
+                display: none;
+                margin-top: 20px;
+            }
+            
+            .promotion-radio legend {
+                margin-bottom: 0px;
+            }
+            
+            .user-offer legend {
+                font-size: 14px;
+                font: bold;
+                margin-bottom: 5px;
+                border-bottom: 0;
+                padding-top: 10px;
+            }
+            
+            .create-promotion .panel {
+                border: 0px solid transparent;
+            }
+            
+            .input-group-addon.addon-inline:last-child {
+                line-height: inherit;
+                border-right: 1px solid #ccc;
+            }
+            /*  Utilities*/
+            
+            .create-promotion .form-control.input-250 {
+                width: 250px
+            }
+            
+            .text-alert {
+                color: #a94442;
+            }
+            
+            .min-w100 {
+                min-width: 100px;
+            }
+            
+            .w100 {
+                width: 100%
+            }
+            
+            .inline-block {
+                display: inline-block
+            }
+            
+            .inline-block .or {
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: -5px;
+            }
+            
+            .pl20 {
+                padding-left: 20px;
+            }
+            
+            .pt10 {
+                padding-top: 10px
+            }
+            
+            .pt20 {
+                padding-top: 20px
+            }
+            
+            .font-16 {
+                font-size: 16px;
+            }
+            
+            .option-heading {
+                color: #03aab9;
+            }
+            
+            .display-none {
+                display: none
+            }
+            
+            .display-block {
+                display: block
+            }
+            
+            .strong {
+                font-weight: bold
+            }
+            /* form inputs */
+            
+            .create-promotion .form-control.input-2 {
+                width: 100px;
+            }
+            /* Addon */
+            
+            .create-promotion .input-group-addon {
+                padding: 6px 12px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1;
+                color: #fff;
+                text-align: center;
+                background-color: #36c6d3;
+                border: 1px solid #36c6d3;
+            }
+            /* Buttons */
+            
+            .create-promotion .btn-primary {
+                color: #fff;
+                background-color: #36c6d3;
+                border-color: #36c6d3;
+                border-radius: 30px;
+            }
+            
+            .create-promotion .btn-primary:hover,
+            .create-promotion .btn-primary:focus,
+            .create-promotion .btn-primary.active.focus,
+            .create-promotion .btn-primary.active:focus,
+            .create-promotion .btn-primary.active:hover,
+            .create-promotion .btn-primary:active.focus,
+            .create-promotion .btn-primary:active:focus,
+            .create-promotion .btn-primary:active:hover,
+            .create-promotion .open>.dropdown-toggle.btn-primary.focus,
+            .create-promotion .open>.dropdown-toggle.btn-primary:focus,
+            .create-promotion .open>.dropdown-toggle.btn-primary:hover {
+                color: #fff;
+                background-color: #03aab9;
+                border-color: #03aab9;
+            }
+            /* date-picker customization */
+            
+            .create-promotion .daterangepicker tr td.active,
+            .create-promotion .daterangepicker tr td.active:hover {
+                background-color: #11a7b5 !important;
+                border-color: transparent;
+                color: #fff;
+                border-radius: 30px;
+            }
+            
+            .create-promotion .daterangepicker .drp-selected {
+                font-size: 14px
+            }
+            
+            @media screen and (max-width:767px) {
+                .create-promotion .daterangepicker .drp-selected {
+                    font-size: 12px
+                }
+            }
+            
+            .create-promotion fieldset .btn.btn-link {
+                text-align: left;
+                text-decoration: none;
+                background: #cefbff;
+                border-radius: 0px;
+                border: 2px solid #fff;
+                width: 100%;
+                color: #03aab9;
+                float: left;
+                font-weight: bold;
+            }
+            
+            .create-promotion fieldset .btn.btn-link:hover,
+            .create-promotion fieldset .btn.btn-link:focus {
+                color: #fff;
+                background: #03aab9;
+            }
+            
+            .overflow-x {
+                overflow-x: auto
+            }
+            
+            .create-promotion .BusinessHours table.table tr td .btn {
+                padding: 6px 9px;
+            }
+            /* Multi-select */
+            
+            .multiselect-container.dropdown-menu>li>a {
+                padding: 3px 32px;
+            }
+            
+            .add-styling-1 .multiselect {
+                width: 500px;
+                text-align: left;
+            }
+            
+            .add-styling-1 .multiselect b.caret {
+                position: absolute;
+                top: 14px;
+                right: 8px;
+            }
+            
+            .add-styling-1 .multiselect-group {
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            
+            .add-styling-2 .multiselect-all {
+                font-weight: bold;
+            }
+            
+            .add-styling-2 .multiselect-search {
+                color: red;
+            }
