@@ -292,15 +292,15 @@
 
 .daterangepicker .drp-selected {
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     padding-right: 8px;
     font-weight: bold;
     color: #36c6d3;
     background: #ffffff;
     padding: 10px 4px;
     border-radius: 8px;
-    border: 2px solid #36c6d3;
-    text-shadow: 1px 1px 0px #01717b;
+    /* border: 2px solid #36c6d3;
+    text-shadow: 1px 1px 0px #01717b; */
 }
 
 .daterangepicker .drp-buttons .btn {
