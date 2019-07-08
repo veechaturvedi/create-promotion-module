@@ -13,13 +13,10 @@
     <!-- Custom css -->
     <link href="css/custom.css" rel="stylesheet">
 
-
-
     <!-- Date-picker files -->
     <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
     <!-- Time-picker -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-clockpicker.css">
-
 
     <!-- Multi-select -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-multiselect.css">
@@ -36,7 +33,7 @@
     <h3 class="heading-strip">
         Create new promotion
     </h3>
-    <form method="POST" action="">
+    <form method="POST" action="#">
         <div class="col-md-12 create-promotion">
             <!-- start-row :: Section - I would like to promote -->
             <div class="row">
@@ -46,10 +43,8 @@
                         <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group-vertical mr-2" role="group" aria-label="First group">
                                 <button type="button" class="btn btn-link btn-block" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" class="collapsed"><span class="glyphicon glyphicon-play"></span> An item</button>
-                                <button type="button" class="btn btn-link btn-block" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" class="collapsed"><span class="glyphicon glyphicon-play"></span> Spending a certain
-                                    amount at my store:</button>
-                                <button type="button" class="btn btn-link btn-block" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" class="collapsed"><span class="glyphicon glyphicon-play"></span> After a certain
-                                    number of visits</button>
+                                <button type="button" class="btn btn-link btn-block" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" class="collapsed"><span class="glyphicon glyphicon-play"></span> Spending a certain amount at my store:</button>
+                                <button type="button" class="btn btn-link btn-block" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" class="collapsed"><span class="glyphicon glyphicon-play"></span> After a certain number of visits</button>
                             </div>
                         </div>
                     </fieldset>
@@ -112,7 +107,6 @@
                             </div>
                         </div>
 
-
                         <!-- start::Radio-cashback-or-item -->
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12 form-group">
@@ -121,20 +115,13 @@
                                     </legend>
                                     <div class="radio-inline">
                                         <label>
-                                            <input type="radio" name="offer-item" id="offercashback" value="cashback"
-                                                data-toggle="collapse" data-parent="#accordion2"
-                                                href="#collapsecashback" aria-expanded="false" class="collapsed" />
-                                            Cashback
+                                            <input type="radio" name="offer-item" id="offercashback" value="cashback" data-toggle="collapse" data-parent="#accordion2" href="#collapsecashback" aria-expanded="false" class="collapsed" /> Cashback
                                         </label>
                                     </div>
                                     <div class="inline-block"><strong class="or">Or</strong></div>
                                     <div class="radio-inline">
                                         <label>
-                                            <input type="radio" name="offer-item" id="promote-item2" value="Item"
-                                                data-toggle="collapse" data-parent="#accordion2" href="#collapseitem"
-                                                placeholder="if other then enter amount" aria-expanded="false"
-                                                class="collapsed" />
-                                            Another item
+                                            <input type="radio" name="offer-item" id="promote-item2" value="Item" data-toggle="collapse" data-parent="#accordion2" href="#collapseitem" placeholder="if other then enter amount" aria-expanded="false" class="collapsed" /> Another item
                                         </label>
                                     </div>
                                 </fieldset>
@@ -149,8 +136,7 @@
                                 <div id="collapsecashback" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                                     <div class="row form-group">
                                         <div class="col-md-12">
-                                            <label class="" for="exampleInputAmount">How much cashback will your
-                                                customer receive?</label>
+                                            <label class="" for="exampleInputAmount">How much cashback will your customer receive?</label>
                                         </div>
                                         <div class="col-md-3 col-sm-4 col-xs-12">
 
@@ -187,7 +173,7 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <p class="text-alert fade in"> <small>Promotion will be live 24/7
+                                                <p class="text-info fade in strong"> <small>Promotion will be live 24/7
                                                         starting on 06/06/2019 9:25AM & ending 06/09/2019
                                                         9:25AM. </small></p>
                                                 <p class="font-16 strong">Optionally, You can choose specific times and days for your promotion to be visible:</p>
@@ -207,16 +193,16 @@
                                                             <td>Monday</td>
                                                             <td>9:30</td>
                                                             <td>6:30</td>
-                                                            <td class="text-center"><button class="btn btn-primary"><span
-                                                                        class="glyphicon glyphicon-minus"></span></button>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-primary"><span class="glyphicon glyphicon-minus"></span></button>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td>Tuesday</td>
                                                             <td>9:30</td>
                                                             <td>6:30</td>
-                                                            <td class="text-center"><button class="btn btn-primary"><span
-                                                                        class="glyphicon glyphicon-minus"></span></button>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-primary"><span class="glyphicon glyphicon-minus"></span></button>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -252,8 +238,8 @@
                                                                     </span>
                                                                 </div>
                                                             </td>
-                                                            <td class="text-center"><button class="btn btn-primary"><span
-                                                                        class="glyphicon glyphicon-plus"></span></button>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span></button>
                                                             </td>
                                                         </tr>
                                                     </tbody>
@@ -421,7 +407,7 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <p class="text-alert fade in"> <small>Promotion will be live 24/7
+                                                <p class="text-info fade in strong"> <small>Promotion will be live 24/7
                                                         starting on 06/06/2019 9:25AM & ending 06/09/2019
                                                         9:25AM. </small></p>
                                                 <p class="font-16 strong">Optionally, You can choose specific times and days for your promotion to be visible:</p>
@@ -641,7 +627,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <div class="col-md-12">
-                                                    <p class="text-alert fade in"> <small>Promotion will be live 24/7
+                                                    <p class="text-info fade in strong"> <small>Promotion will be live 24/7
                                                             starting on 06/06/2019 9:25AM & ending 06/09/2019
                                                             9:25AM. </small></p>
                                                     <p class="font-16 strong">Optionally, You can choose specific times and days for your promotion to be visible:</p>
@@ -859,7 +845,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <div class="col-md-12">
-                                                    <p class="text-alert fade in"> <small>Promotion will be live 24/7
+                                                    <p class="text-info fade in strong"> <small>Promotion will be live 24/7
                                                             starting on 06/06/2019 9:25AM & ending 06/09/2019
                                                             9:25AM. </small></p>
                                                     <p class="font-16 strong">Optionally, You can choose specific times and days for your promotion to be visible:</p>
@@ -1029,7 +1015,6 @@
                                 <strong> visits</strong>
                             </div>
 
-
                         </div>
                         <div class="form-group row">
                             <div class="col-md-8 col-sm-10 col-xs-12">
@@ -1099,7 +1084,7 @@
                                                 <!--start:: time for each day  -->
                                                 <div class="form-group">
                                                     <div class="col-md-12">
-                                                        <p class="text-alert fade in"> <small>Promotion will be live
+                                                        <p class="text-info fade in strong"> <small>Promotion will be live
                                                                 24/7 starting on 06/06/2019 9:25AM & ending 06/09/2019
                                                                 9:25AM. </small></p>
                                                         <p class="font-16 strong">Optionally, You can choose specific times and days for your promotion to be visible:</p>
@@ -1247,7 +1232,7 @@
 
                                             <div class="form-group">
                                                 <div class="col-md-12">
-                                                    <p class="text-alert fade in"> <small>Promotion will be live 24/7
+                                                    <p class="text-info fade in strong"> <small>Promotion will be live 24/7
                                                             starting on 06/06/2019 9:25AM & ending 06/09/2019
                                                             9:25AM. </small></p>
                                                     <p class="font-16 strong">Optionally, You can choose specific times and days for your promotion to be visible:</p>
@@ -1386,8 +1371,6 @@
             </div>
         </div>
     </form>
-    </form>
-
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -1412,7 +1395,6 @@
                 locale: {
                     cancelLabel: 'Clear'
                 }
-
 
             });
 
